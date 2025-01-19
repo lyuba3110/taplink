@@ -40,6 +40,7 @@ body{
 .img-user{
   display: flex;
   align-items: center;
+  margin-bottom: 35px;
   padding-top: 20px;
   padding-left: 9px;
 }
@@ -52,4 +53,35 @@ body{
   width: 351px;
   height: 87px;
   padding-left: 10px;
+}
+
+.img-block{
+   align-items: center;
+   margin-bottom: 35px;
+   display: flex;
+  justify-content: space-around;
+}
+
+.social{
+  align-items: center;
+  display:flex;
+  justify-content: space-around;
+}
+
+.btn{
+  width: 240px;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 14px 45px 14px 45px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(83, 95, 176);
+  color:#F3F2F2;
+  margin-left: 58px;
+  margin-top: 15px;
+ 
 }
